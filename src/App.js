@@ -200,7 +200,7 @@ function App() {
         <Link to="/supply">Supply</Link>
         <Link to="/theme">Theme</Link>
       </nav>
-      
+
       <Link to="/new/journal"><button>Add Journal</button></Link>
       <Link to="/new/supply"><button>Add Supply</button></Link>
       <Link to="/new/theme"><button>Add Theme</button></Link>
@@ -220,7 +220,7 @@ function App() {
         <Route path="/theme" element={<AllThemes themes={themes}/>}/>
         <Route path="/theme/:id" element={<OneTheme themes={themes} edit={getTargetTheme} deleteTheme={deleteTheme}/>}/>
         <Route path="/new/theme" element={<Formt initialTheme={nullTheme} handleSubmit={addTheme} buttonLabel="Create Theme"/>}/>
-        <Route path="/edit/theme" element={<Formt initialTheme={targetTheme} handleSubmit={updateTheme} buttonLabel="Update Supply"/>}/>
+        <Route path="/edit/theme" element={<Formt initialTheme={targetTheme} handleSubmit={updateTheme} buttonLabel="Update Theme"/>}/>
       </Routes>
       <footer>
 
