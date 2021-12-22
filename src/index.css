@@ -1,59 +1,59 @@
-
+body{
+  background-image: url("https://cdn.wallpapersafari.com/32/15/zA9Nj2.jpg");
+  background-size: cover;
+    background-position: center; 
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
 
 nav{
+  background-image: url("https://www.petitemelanie.com/wp-content/uploads/2020/09/best-bullet-journal-supplies-OPT-750x400.jpg");
   background-color: lightblue;
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
+  padding: 30px ;
+  font-weight: 900;
+  text-shadow: 4px 4px 4px hotpink;
+}
+nav a{
+  text-decoration: none;
+  color: black;
+  font-size: x-large;
+  font-weight: 900;
+  text-shadow: 4px 4px 4px hotpink;
 }
 .buttondiv{
   display: flex;
   justify-content: space-around;
 }
 nav a{
-  padding-top: 25px;
+  padding-top: 20px;
 }
 
-
-div.scrollmenu {
-  background-color: rgb(228, 213, 213);
-  overflow: auto;
-  white-space: nowrap;
-  margin: 30px auto;
-  height: 370px;
-  width: 90%;
+.carousel-caption{
+  color: #faeeee;
 }
 
-div.scrollmenu h3{
-  display: inline-block;
-  color: white;
-  text-align: center;
-  padding: 14px;
-  text-decoration: none;
+.home button{
+  color: black;
 }
 
-div.scrollmenu h3:hover{
-  background-color: rgb(238, 204, 237);
-}
-.home{
-  display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
-  width: 100%;
+#carouselExampleSlidesOnly{
+  width: 50%;
   margin: 30px auto;
 }
-.container-fluid img{
-  width: 100%;
+
+footer{
+  background-image: url("https://www.petitemelanie.com/wp-content/uploads/2020/09/best-bullet-journal-supplies-OPT-750x400.jpg");
+  margin-top: 50px;
 }
-/* .container-fluid{
-  display: flex;
-  flex-wrap: wrap;
-  width: 190%;
-  height: 10%;
-  margin: 50px 90px 0px 10em;
-} */
-.col-md-3{
-  display: inline-block;
-  margin: 40px 40px 30px 3em;
-  text-align: center;
+
+footer a{
+  color: black;
+  font-weight: 600;
+}
+
+footer h3{
+  font-weight: 900;
 }

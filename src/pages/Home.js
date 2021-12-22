@@ -9,14 +9,18 @@ const Home = (props) => {
     
     return(
         <div className="home">
-            <div className="scrollmenu">
-             <h3>{journal}</h3>
-            </div>
-            <div className="scrollmenu">
-             <h3>{supply}</h3>
-            </div>
-            <div className="scrollmenu">
-             <h3>{theme}</h3>
+            <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                 <div class="carousel-item active">
+                     <img src="https://i.pinimg.com/564x/41/61/ae/4161aeea0fbbaf943f968159e7525685.jpg" class="d-block w-100" alt="..."/>
+                 </div>
+                 <div class="carousel-item">
+                     <img src="https://mashaplans.com/wp-content/uploads/2019/10/D6B3D5AB-CE39-4690-A25C-73ABB14DAA1F.jpeg" class="d-block w-100" alt="..."/>
+                 </div>
+                 <div class="carousel-item">
+                     <img src="https://littlecoffeefox.com/wp-content/uploads/2020/05/IMG_3283-1024x1024.jpg" class="d-block w-100" alt="..."/>
+                 </div>
+                </div>
             </div>
         </div>
     )

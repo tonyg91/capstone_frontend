@@ -224,7 +224,12 @@ function App() {
         <Route path="/edit/theme" element={<Formt initialTheme={targetTheme} handleSubmit={updateTheme} buttonLabel="Update Theme"/>}/>
       </Routes>
       <footer>
-
+        <div>
+          <h3>Starting Tips</h3>
+          <h4><a href="https://littlecoffeefox.com/ultimate-bullet-journal-cheat-sheet/">Starter Guide</a></h4>
+          <h4><a href="https://www.healthline.com/health/beginners-guide-to-bullet-journals">Everything You Need To Know</a></h4>
+          <h4><a href="https://diaryofajournalplanner.com/starting-a-bullet-journal/">Diary of a Journal Planner</a></h4>
+        </div>
       </footer>
     </div>
   );
