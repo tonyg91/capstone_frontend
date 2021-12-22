@@ -7,7 +7,6 @@ const Supply = ({supply}) => {
             <Link to={`/supply/${supply.id}`}>
                 <h1>Brand: {supply.brand}</h1>
             </Link>
-            <h4>Type: {supply.type}</h4>
         </div>
     )
 }

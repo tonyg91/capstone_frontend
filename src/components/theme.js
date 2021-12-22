@@ -6,7 +6,6 @@ const Theme = ({theme}) => {
             <Link to={`/theme/${theme.id}`}>
                 <img src={theme.image} alt="themepic"/>
             </Link>
-            <h3>Page Layout: {theme.pagelayout}</h3>
         </div>
     )
 }

@@ -200,10 +200,11 @@ function App() {
         <Link to="/supply">Supply</Link>
         <Link to="/theme">Theme</Link>
       </nav>
-
-      <Link to="/new/journal"><button>Add Journal</button></Link>
-      <Link to="/new/supply"><button>Add Supply</button></Link>
-      <Link to="/new/theme"><button>Add Theme</button></Link>
+      <div className="buttondiv">
+        <Link to="/new/journal"><button>Add Journal</button></Link>
+        <Link to="/new/supply"><button>Add Supply</button></Link>
+        <Link to="/new/theme"><button>Add Theme</button></Link>
+      </div>
 
       <Routes>
         <Route path="/" element={<Home journals={journals} supplies={supplies} themes={themes}/>}/>
