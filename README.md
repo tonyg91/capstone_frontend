@@ -1,70 +1,60 @@
-# Getting Started with Create React App
+## Capstone Project
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+### Title: Bullet Journal App
 
-## Available Scripts
+## User Story 
+A user can use this page to view different types of bullet journals, supplies, and page themes to get them started. The user can add in their own bullet journal themes, bullet journals, and supplies that they use and want to share with others. There will aslo be links for beginners to find out where they should start and what they should start with. When the user is adding their own personal page themes the user has a section to put there name as the creator.
 
-In the project directory, you can run:
+## Models
+# Journal
+  -brand: String,
+  -paperweight: String,
+  -sizes: String,
+  -image: String,
+# Supply
+ -brandName: String,
+ -type: String,
+ -ink: String,
+ -image: String,
+# Theme
+ -image: String,
+ -page: String,
+ -creator: String
 
-### `npm start`
+ ## Tech
+ -Django
+ -React 
+ -CSS
+ -Django Rest Framwork
+ 
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### Route Table
+## Journal
+| URL | Method | Action |
+|-----|--------|--------|
+| / | GET | Home page for app|
+| /journal | GET | Index page of all journals|
+| /journal/:id | GET, DELETE | Show page of a single journal, User can also delete from this page|
+| /edit/journal | PUT | Edit page for a journal|
+| /new/journal | POST | Create a new journal|
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Supply
+| URL | Method | Action |
+|-----|--------|--------|
+| / | GET | Masonite Welcome Page|
+| /supply | GET, POST | Index page of all supplies as well as the page to add supplies|
+| /suppply/:id | GET, DELETE | Show page of a single supply, User can also delete from this page|
+| /edit/supply | PUT | Edit page for a supply|
+| /new/supply | POST | Create a new supply|
 
-### `npm test`
+## Theme
+| URL | Method | Action |
+|-----|--------|--------|
+| / | GET | Masonite Welcome Page|
+| /theme | GET, POST | Index page of all theme as well as the page to add theme|
+| /theme/:id | GET, DELETE | Show page of a single theme, User can also delete from this page|
+| /edit/theme | PUT | Edit page for a theme|
+| /new/theme | POST | Create a new theme|
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+### Challenges 
+The main challenge I had with the front end was trying to figure out how I was going to build it out. Was it all going to be shown on one page with everything on it. Or was it going to be all separate pages and inevitably I went with sepatate pages. Which worked out in the long run it still needs alot of work to get to the vison I had in mind but I like the way it turned out for now.
