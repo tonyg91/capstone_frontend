@@ -112,3 +112,18 @@ footer h3{
 .supply img{
   width: 40%;
 }
+
+@media only screen and (max-width: 600px){
+  body{
+    font-size: 10px;
+  }
+  footer{
+    font-size: 10px;
+  }
+  nav{
+    font-size: 10px;
+  }
+  .viewpage button{
+    margin: auto;
+  }
+}
