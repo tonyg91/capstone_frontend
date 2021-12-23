@@ -7,7 +7,7 @@ const OneSupply = ({supplies, edit , deleteSupply}) => {
 
 
     return (
-        <div>
+        <div className="viewpage">
             <button onClick={(event) => edit(supply)}>Edit Supply</button>
             <button onClick={(event) => deleteSupply(supply)}>Delete Supply</button>
             <h2>Brand: {supply.brand}</h2>

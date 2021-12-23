@@ -22,6 +22,11 @@ const Home = (props) => {
                  </div>
                 </div>
             </div>
+            <div className="hdisplay">
+                <h1>Journals {journal[1]}</h1>
+                <h1>Supplys {supply[1]}</h1>
+                <h1>Theme{theme[4]}</h1>
+            </div>
         </div>
     )
 }

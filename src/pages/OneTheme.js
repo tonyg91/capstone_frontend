@@ -6,7 +6,7 @@ const OneTheme = ({themes, edit, deleteTheme}) => {
     const theme = themes.find((theme) => theme.id === id)
 
     return(
-        <div>
+        <div className="viewpage">
           <button onClick={(event) => edit(theme)}>Edit Theme</button>
           <button onClick={(event) => deleteTheme(theme)}>Delete Theme</button>
           <h2>Page Layout: {theme.pagelayout}</h2>

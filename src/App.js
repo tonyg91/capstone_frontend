@@ -230,6 +230,13 @@ function App() {
           <h4><a href="https://www.healthline.com/health/beginners-guide-to-bullet-journals">Everything You Need To Know</a></h4>
           <h4><a href="https://diaryofajournalplanner.com/starting-a-bullet-journal/">Diary of a Journal Planner</a></h4>
         </div>
+        <div>
+          <h3>Where To Purchase</h3>
+          <h4><a href="https://www.amazon.com/s?k=bullet+journals+supplies&crid=3GORP6SI0ZUHH&sprefix=bullet+jou%2Caps%2C100&ref=nb_sb_ss_ts-doa-p_3_10">Supplies</a></h4>
+          <h4><a href="https://www.amazon.com/s?k=bullet+journals&crid=3BUTX4LZUL1K4&sprefix=bullet+journals+%2Caps%2C98&ref=nb_sb_noss">Bullet Journals</a></h4>
+          <h4><a href="https://www.archerandolive.com/">Archer & Olive</a></h4>
+          <h4><a href="https://www.pinterest.com/Sumana/bullet-journal/">Pinterest Themes</a></h4>
+        </div>
       </footer>
     </div>
   );

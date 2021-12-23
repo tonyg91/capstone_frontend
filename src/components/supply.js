@@ -2,11 +2,11 @@ import {Link} from "react-router-dom"
 
 const Supply = ({supply}) => {
     return (
-        <div>
-            <img src={supply.image} alt="supplypic"/>
+        <div className="supply">
             <Link to={`/supply/${supply.id}`}>
-                <h1>Brand: {supply.brand}</h1>
+            <img src={supply.image} alt="supplypic"/>
             </Link>
+            <h1>Brand: {supply.brand}</h1>
         </div>
     )
 }

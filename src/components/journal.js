@@ -3,15 +3,11 @@ import {Link} from "react-router-dom"
 const Journal = ({ journal }) => {
 
     return (
-        <div class="container-fluid">
-          {/* <div class="row">
-            <div class="col-md-3"> */}
+        <div className="container"> 
+            <Link to={`/journal/${journal.id}`}>
               <img src={journal.image} alt="journalpic"/>
-              <Link to={`/journal/${journal.id}`}>
-                <h1>Brand: {journal.brand}</h1>
-              </Link>
-            {/* </div>
-          </div> */}
+            </Link>
+            <h1>Brand: {journal.brand}</h1>
         </div>
     )
 }

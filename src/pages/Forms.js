@@ -16,7 +16,7 @@ const Forms = ({ initialSupply, handleSubmit, buttonLabel}) => {
     const handleSubmisson = (event) => {
       event.preventDefault();
       handleSubmit(formData);
-      navigate("/");
+      navigate("/supply");
     };
   
 

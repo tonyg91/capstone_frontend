@@ -7,7 +7,7 @@ const OneJournal = ({journals, edit, deleteJournal}) => {
     const journal = journals.find((journal) => journal.id === id)
 
     return (
-        <div>
+        <div className="viewpage">
             <button onClick={(event) => edit(journal)}>Edit Journal</button>
             <button onClick={(event) => deleteJournal(journal)}>Delete Journal</button>
             <h1>Brand: {journal.brand}</h1>

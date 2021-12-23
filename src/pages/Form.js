@@ -16,7 +16,7 @@ const Formj = ({ initialJournal, handleSubmit, buttonLabel}) => {
     const handleSubmisson = (event) => {
       event.preventDefault();
       handleSubmit(formData);
-      navigate("/");
+      navigate("/journal");
     };
   
 

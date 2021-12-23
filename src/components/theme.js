@@ -2,7 +2,7 @@ import {Link} from "react-router-dom"
 
 const Theme = ({theme}) => {
     return (
-        <div>
+        <div className="theme">
             <Link to={`/theme/${theme.id}`}>
                 <img src={theme.image} alt="themepic"/>
             </Link>

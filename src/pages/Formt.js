@@ -16,7 +16,7 @@ const Formt = ({ initialTheme, handleSubmit, buttonLabel}) => {
     const handleSubmisson = (event) => {
       event.preventDefault();
       handleSubmit(formData);
-      navigate("/");
+      navigate("/theme");
     };
   
 
