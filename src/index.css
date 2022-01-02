@@ -4,6 +4,7 @@ body{
   background-position: center; 
   background-repeat: no-repeat;
   background-attachment: fixed;
+  font-family: 'Varela Round', sans-serif;
 }
 img {
   width: 50%;

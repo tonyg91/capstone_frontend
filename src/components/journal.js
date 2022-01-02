@@ -4,10 +4,12 @@ const Journal = ({ journal }) => {
 
     return (
         <div className="container"> 
-            <Link to={`/journal/${journal.id}`}>
+            <div className="grid-item">
+             <Link to={`/journal/${journal.id}`}>
               <img src={journal.image} alt="journalpic"/>
-            </Link>
-            <h1>Brand: {journal.brand}</h1>
+             </Link>
+             
+            </div>
         </div>
     )
 }

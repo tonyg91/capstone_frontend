@@ -6,7 +6,7 @@ const Supply = ({supply}) => {
             <Link to={`/supply/${supply.id}`}>
             <img src={supply.image} alt="supplypic"/>
             </Link>
-            <h1>Brand: {supply.brand}</h1>
+            
         </div>
     )
 }
